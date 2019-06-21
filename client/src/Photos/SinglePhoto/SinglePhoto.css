@@ -1,0 +1,9 @@
+.SinglePhoto {
+  width: 250px;
+  margin-right: 20px;
+}
+
+.SinglePhoto__image {
+  width: 100%;
+  height: auto;
+}

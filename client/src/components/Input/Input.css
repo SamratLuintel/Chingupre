@@ -1,0 +1,41 @@
+.input-label {
+  font-family: AvantGardePro;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 900;
+  color: #575b7e;
+  letter-spacing: -0.61px;
+}
+
+.input-error {
+  font-family: AvantGardePro;
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 900;
+  color: red;
+  opacity: 0.7;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.Input {
+  font-family: AvantGardePro;
+  background: #fff;
+  padding: 12px 20px;
+  box-shadow: 0 13px 27px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 2.67px;
+  font-size: 20px;
+  font-weight: 900;
+  color: #575b7e !important;
+  letter-spacing: -0.91px;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+  border: 0px;
+}
+.Input::placeholder {
+  color: rgba(67, 91, 126, 0.3);
+}

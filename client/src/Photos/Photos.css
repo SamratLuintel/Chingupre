@@ -1,0 +1,42 @@
+.Photos {
+  min-height: 100vh;
+  background-color: #edeef3;
+  position: relative;
+}
+
+.photos-wrapper {
+  height: 85vh;
+  width: 75%;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.photos-header {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 47px;
+  color: #575b7e;
+  font-family: AvantGardePro;
+  position: absolute;
+  top: -50px;
+  margin-left: -20px;
+  cursor: pointer;
+}
+
+.loading-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-area {
+  display: flex;
+  flex-wrap: no-wrap;
+}
